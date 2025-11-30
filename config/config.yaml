@@ -72,8 +72,8 @@ notification:
   #    - Severe: Webhook abuse leading to security incidents (malicious messages, phishing links, etc.)
   #
   webhooks:
-    feishu_url: "https://www.feishu.cn/flow/api/trigger-webhook/fa37ad9a5ce08509d2b2ee898d2cf30b" # 飞书机器人的 webhook URL
-    dingtalk_url: "https://oapi.dingtalk.com/robot/send?access_token=22fdab6b54f585ff7c7309d5ec2bec26191873cb76b1acedc0ba1bd6b1fae92e" # 钉钉机器人的 webhook URL
+    feishu_url: "" # 飞书机器人的 webhook URL
+    dingtalk_url: "" # 钉钉机器人的 webhook URL
     wework_url: "" # 企业微信机器人的 webhook URL
     wework_msg_type: "markdown" # 企业微信消息类型：markdown(群机器人) 或 text(个人微信应用)
     telegram_bot_token: "" # Telegram Bot Token
